@@ -1,0 +1,41 @@
+body {
+    background-image:url("https://i.pinimg.com/236x/85/3e/4a/853e4a5a6c7fecbf73544f20b9dd6236--harry-potter-sei.jpg"); 
+    }
+    
+h1{
+    color:Gold; 
+    text-align:center; 
+    text-decoration:dotted underline;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size:70px;
+    }
+
+img{
+    margin-left:10px;
+    border:solid gold;
+    height:200px;
+    width:300px;
+}
+
+button{
+    margin-left:10px;
+    color:red;
+    background-color:gold;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.harry{ 
+    display:flex;
+    justify-content:flex-start;
+}
+
+.inside{
+    justify-content:flex-start;
+}
+.image{
+    margin-left:600px;
+   
+
+    
+}
