@@ -30,7 +30,7 @@ button{
     color:red;
     background-color:gold;
     font-size:20px;
-    margin-bottom:10px;
+    height:100px;
 }
 
 .harry{ 
@@ -42,11 +42,8 @@ button{
     justify-content:flex-start;
 }
 .image{
-    margin-left:600px;
-   
-
-    
-}</style></head>
+    margin-left:550px;
+   }</style></head>
     <body>
         <h1> Behold The Book OF Spells! </h1>
         <div class="image">
@@ -99,11 +96,13 @@ button{
     </button>
     
    
-    
       </div>
-    
-    
-    
+
+<div class="up">
+ <div class="button">
+    <h1> Thanks For Viewing </h1>
+   </div>
+   </div>
     
     
     
@@ -139,7 +138,7 @@ button{
 <script>
 /*__POPCODESTART__*/
 $(".harry").click(function() {
-    $(".control1").fadeToggle();
+    $(".control1").fadeToggle("slow");
 });
 
 $(".spell").click(function() {
@@ -148,5 +147,9 @@ $(".spell").click(function() {
 
 $(".show").click(function() {
     $(".control3").toggle();
+});
+
+$(".up").click(function() {
+    $(".button").slideToggle();
 });
 </script></body></html>
