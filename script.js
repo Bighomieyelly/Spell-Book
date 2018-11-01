@@ -1,5 +1,5 @@
 $(".harry").click(function() {
-    $(".control1").fadeToggle();
+    $(".control1").fadeToggle("slow");
 });
 
 $(".spell").click(function() {
@@ -8,4 +8,8 @@ $(".spell").click(function() {
 
 $(".show").click(function() {
     $(".control3").toggle();
+});
+
+$(".up").click(function() {
+    $(".button").slideToggle();
 });
